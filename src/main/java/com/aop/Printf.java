@@ -12,6 +12,7 @@ public class Printf {
 
     public static void main(String[] args) {
 
+        System.out.printf("%10s","abc");           //输出10列，左对齐(-号表示左对齐)
         System.out.printf("%-10s","abc");           //输出10列，左对齐(-号表示左对齐)
         System.out.printf("%8d",23);                   //输出8列， 右对刘
         /*** 输出字符串 ***/
